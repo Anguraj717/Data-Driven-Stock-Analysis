@@ -1,25 +1,14 @@
 # 📈 Data-Driven Stock Market Analysis
 
-## Project Overview
+## 📌 Project Overview
 
-This project performs end-to-end stock market data analysis using Python.
+This project is an end-to-end **Stock Market Data Analysis** project developed using **Python, Pandas, MySQL, Plotly, and Streamlit**.
 
-The project includes:
-
-- Data Cleaning
-- Feature Engineering
-- Exploratory Data Analysis (EDA)
-- Stock Performance Analysis
-- Sector-wise Analysis
-- Volatility Analysis
-- Correlation Analysis
-- Monthly Gainers & Losers
-- MySQL Database Integration
-- Interactive Streamlit Dashboard
+The project analyzes historical stock market data, performs data cleaning, feature engineering, exploratory data analysis (EDA), and stores the final results in a MySQL database. An interactive Streamlit dashboard is used to visualize the analysis.
 
 ---
 
-## Technologies Used
+# 🚀 Technologies Used
 
 - Python
 - Pandas
@@ -27,15 +16,17 @@ The project includes:
 - Plotly
 - Streamlit
 - MySQL
+- Git
+- GitHub
 - VS Code
 
 ---
 
-## Dataset
+# 📂 Dataset
 
-The dataset contains historical stock prices of Nifty 50 companies.
+The dataset contains historical stock prices of **Nifty 50 companies**.
 
-Columns include:
+### Dataset Columns
 
 - Ticker
 - Date
@@ -48,101 +39,185 @@ Columns include:
 
 ---
 
-## Project Workflow
+# 🔄 Project Workflow
 
-### Step 1
+```
 Data Collection
-
-↓
-
-### Step 2
+       │
+       ▼
 Data Cleaning
-
-↓
-
-### Step 3
+       │
+       ▼
 Feature Engineering
-
-↓
-
-### Step 4
-Exploratory Data Analysis
-
-↓
-
-### Step 5
-Stock Analysis
-
-↓
-
-### Step 6
+       │
+       ▼
+Exploratory Data Analysis (EDA)
+       │
+       ▼
+Stock Performance Analysis
+       │
+       ▼
 Store Results in MySQL
-
-↓
-
-### Step 7
+       │
+       ▼
 Interactive Streamlit Dashboard
+```
 
 ---
 
-## Analysis Performed
+# 📊 Analysis Performed
 
-### Analysis 1
+## ✅ Analysis 1
 Top 10 Green Stocks
 
-### Analysis 2
+## ✅ Analysis 2
 Top 10 Red Stocks
 
-### Analysis 3
+## ✅ Analysis 3
 Market Summary
 
-### Analysis 4
+## ✅ Analysis 4
 Volatility Analysis
 
-### Analysis 5
-Sector Performance
+## ✅ Analysis 5
+Sector-wise Performance Analysis
 
-### Analysis 6
+## ✅ Analysis 6
 Correlation Analysis
 
-### Analysis 7
-Monthly Gainers & Losers
+## ✅ Analysis 7
+Monthly Gainers & Losers Analysis
 
 ---
 
-## Streamlit Dashboard Features
+# 📈 Streamlit Dashboard Features
 
 - Dashboard Metrics
+- Market Highlights
 - Top Gainer
 - Top Loser
-- Green Stocks Table
-- Red Stocks Table
-- Interactive Charts
+- Green Stocks Performance Chart
+- Red Stocks Performance Chart
+- Top 10 Green Stocks Table
+- Top 10 Red Stocks Table
+- Interactive Plotly Charts
 
 ---
 
-## MySQL Tables
+# 🗄️ MySQL Integration
 
-- top_green_red_stocks
+The analyzed stock data is stored in the following MySQL table:
+
+- `top_green_red_stocks`
 
 ---
 
-## How to Run
+# 📁 Project Structure
 
-Install dependencies
+```
+Data-Driven-Stock-Analysis/
+│
+├── app/
+│   └── app.py
+│
+├── data/
+│
+├── output/
+│
+├── scripts/
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── main.py
+```
+
+---
+
+# ▶️ How to Run
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/Anguraj717/Data-Driven-Stock-Analysis.git
+```
+
+---
+
+## 2. Open the Project Folder
+
+```bash
+cd Data-Driven-Stock-Analysis
+```
+
+---
+
+## 3. Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Streamlit
+This command installs all required Python libraries listed in `requirements.txt`.
+
+---
+
+## 4. Run the Streamlit Dashboard
 
 ```bash
 streamlit run app/app.py
 ```
 
+After running the above command, open the following URL in your browser:
+
+```
+http://localhost:8501
+```
+
 ---
 
-## Author
-ANGURAJ
-Developed as a Data Analytics Mini Project using Python, MySQL, and Streamlit.
+# 📷 Dashboard Preview
+
+The dashboard includes:
+
+- 📈 Market Highlights
+- 🟢 Top Green Stocks
+- 🔴 Top Red Stocks
+- 📊 Interactive Charts
+- 📋 Data Tables
+
+---
+
+# 📦 Requirements
+
+Main libraries used in this project:
+
+- pandas
+- numpy
+- streamlit
+- plotly
+- mysql-connector-python
+
+---
+
+# 👨‍💻 Author
+
+**Anguraj**
+
+Developed as a **Data Analytics Mini Project** using:
+
+- Python
+- Pandas
+- MySQL
+- Plotly
+- Streamlit
+
+---
+
+# ⭐ GitHub Repository
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+Repository:
+
+**https://github.com/Anguraj717/Data-Driven-Stock-Analysis**
