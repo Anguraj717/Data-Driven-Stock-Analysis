@@ -92,15 +92,17 @@ Monthly Gainers & Losers Analysis
 
 # 📈 Streamlit Dashboard Features
 
-- Dashboard Metrics
-- Market Highlights
-- Top Gainer
-- Top Loser
-- Green Stocks Performance Chart
-- Red Stocks Performance Chart
-- Top 10 Green Stocks Table
-- Top 10 Red Stocks Table
-- Interactive Plotly Charts
+- 📊 Dashboard Metrics
+- 🏆 Market Highlights
+- 🔍 Search by Ticker
+- 🏢 Filter by Sector
+- 📈 Top Gainer
+- 📉 Top Loser
+- 📊 Green Stocks Performance Chart
+- 📊 Red Stocks Performance Chart
+- 🟢 Top Green Stocks Table
+- 🔴 Top Red Stocks Table
+- 📈 Interactive Plotly Charts
 
 ---
 
@@ -187,6 +189,16 @@ The dashboard includes:
 - 📋 Data Tables
 
 ---
+---
+
+# ✨ Latest Update
+
+The Streamlit dashboard has been enhanced with interactive filtering features:
+
+- 🔍 Search stocks by ticker symbol.
+- 🏢 Filter stocks by sector.
+- 📊 Charts and tables update automatically based on the selected filters.
+- 🛡️ Handles empty search results gracefully without errors.
 
 # 📦 Requirements
 
