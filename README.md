@@ -7,6 +7,11 @@ This project is an end-to-end **Stock Market Data Analysis** project developed u
 The project analyzes historical stock market data, performs data cleaning, feature engineering, exploratory data analysis (EDA), and stores the final results in a MySQL database. An interactive Streamlit dashboard is used to visualize the analysis.
 
 ---
+## 🌐 Live Demo
+
+**Streamlit App:**
+
+https://data-driven-stock-analysis-fsindkpjyvoju9gt4kfvks.streamlit.app
 
 # 🚀 Technologies Used
 
